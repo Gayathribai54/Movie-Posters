@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(60, 60, 41);
+}
+.poster-card{
+    max-width: 250px;
+    text-align: left;
+    transition: all;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 10px 0 5px 0;
+}
+.poster-card:hover{
+    transform: translateY(10px);
+}
